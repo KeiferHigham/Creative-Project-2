@@ -1,0 +1,73 @@
+body {
+  background-color: #e6e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.playerInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#teamGames {
+  font-size: 79%;
+  text-align: center;
+  /*border: 5px solid red;*/
+}
+
+#teamGames h2 {
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.github-footer-fixed {
+  user-select: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 2vh;
+  bottom: 2vh;
+  font-size: 25%;
+}
+
+
+.footer-names {
+  position: fixed;
+  right: 10vh;
+  bottom: 2vh;
+  font-size: 25%;
+}
+
+
+@media (min-width: 401px) {
+  .playerInfo {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+  }
+  .playerInfo p {
+    text-align: left;
+  }
+
+  #playerPosition {
+    margin: auto;
+  }
+
+  #playerStats {
+    margin: auto;
+  }
+
+  #teamGames {
+    font-size: 100%;
+    margin-top: 100px;
+  }
+
+  body {
+    font-size: 205%;
+    margin: 20px;
+  }
+}
